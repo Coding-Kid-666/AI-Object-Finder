@@ -1,0 +1,54 @@
+.header{
+    margin: 5px;
+    width: 80%;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.start{
+    position: relative;
+    background-color: limegreen;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: rgb(41, 179, 41);
+    font-size: 17px;
+    width: 15%;
+    border-width: 4px;
+    border-radius: 20px;
+}
+.start:hover{
+    left: 4px;
+}
+.footer{
+    line-height: 3;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: slategray;
+    color: white;
+}
+.name{
+    font-weight: bold;
+    font-family: cursive;
+    animation-name: wow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wow {
+    0%{color: red}
+    25%{color: orangered}
+    50%{color: orange}
+    75%{color: yellow}
+    100%{color: orangered}
+}
+body{
+    background-size: cover;
+}
+canvas{
+    margin-top: 150px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: green;
+    background: linear-gradient(yellow 0%, orange 25%, orangered 50%, red 75%, black 100%);
+}
